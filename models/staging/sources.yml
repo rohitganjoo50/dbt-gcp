@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: bronze_ds
+    schema: bronze_ds
+    description: "Raw source banking and customer tables in BigQuery"
+    tables:
+      - name: gbmart_accounts
+        description: "Raw accounts table"
+      - name: gbmart_branches
+        description: "Raw branches table"
+      - name: gbmart_credit
+        description: "Raw credit records table"
+      - name: gbmart_customers
+        description: "Raw customers table"
+      - name: gbmart_loans
+        description: "Raw loans table"
